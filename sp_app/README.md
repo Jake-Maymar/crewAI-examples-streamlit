@@ -6,9 +6,9 @@ This is an example of how to use the [CrewAI](https://github.com/joaomdmoura/cre
 ## Running the Code
 This example uses GPT-4.
 
-- **Configure Environment**: Copy ``.env.example` and set up the environment variable
-- **Install Dependencies**: Run `pip install -r requirements.txt`
-- **Execute the Script**: Run `python main.py`
+- **Configure Environment**: Add a .streamlit folder and add you Groq API key
+- **Install Dependencies**: Run `pip install -r requirements.txt` or poetry install --no-root
+- **Execute the Script**: Run `streamlit run screenplay_st.py`
 
 ## License
 This project is released under the MIT License.
