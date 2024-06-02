@@ -19,8 +19,8 @@ class StreamToStreamlit:
         pass
 
 def main():
-    with open("style.css") as css:
-        st.markdown(f'<style>{css.read()}</style>', unsafe_allow_html=True)
+    # with open("style.css") as css:
+    #     st.markdown(f'<style>{css.read()}</style>', unsafe_allow_html=True)
 
     st.sidebar.title('Customization')
     model = st.sidebar.selectbox(
